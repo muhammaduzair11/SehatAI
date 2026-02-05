@@ -312,7 +312,7 @@ export const useLiveSession = ({ apiKey, onLog, onToolCall, systemInstruction }:
         if (mode === CallMode.OUTBOUND && contextData) {
           await speakText(`Assalam-o-Alaikum, ${contextData.patientName} ki appointment hai ${contextData.dateTime}. Kya aap aa rahay hain?`);
         } else {
-          await speakText('Assalam-o-Alaikum, Sehat Clinic. Ji farmayein?');
+          await speakText('Assalam-o-Alaikum, SehatAI se bol rahe hain. Ji farmayein?');
           await speakText('Apna naam batayein, please.');
         }
 

@@ -117,7 +117,7 @@ export const SimulationView: React.FC<SimulationViewProps> = ({
                             </div>
                          </div>
                    ) : (
-                         <p className="text-slate-500 text-lg">Select a mode to initialize Sehat AI</p>
+                         <p className="text-slate-500 text-lg">Select a mode to initialize SehatAI</p>
                    )}
          </div>
       </div>

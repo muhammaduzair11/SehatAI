@@ -31,8 +31,8 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate }) => {
 
         {/* Subtext */}
         <p className="text-lg lg:text-xl text-slate-500 font-medium max-w-2xl mx-auto leading-relaxed">
-          Sehat AI is an autonomous front-desk agent that speaks native Urdu. <br className="hidden lg:block"/>
-          It books appointments, sends reminders, and never sleeps.
+          We are SehatAI, an autonomous front-desk agent that speaks native Urdu. <br className="hidden lg:block"/>
+          We book appointments, send reminders, and never sleep.
         </p>
 
         {/* CTA Buttons */}

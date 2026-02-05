@@ -136,7 +136,7 @@ const App: React.FC = () => {
         case 'end_call': {
           addLog("Call completion requested.", 'info');
           
-          // 3-second grace period for "Allah Hafiz" to play out
+          // Grace period for goodbye audio to play out
           setTimeout(() => {
             disconnectRef.current();
             setCallMode(CallMode.IDLE);
@@ -148,7 +148,7 @@ const App: React.FC = () => {
             } else {
                addLog("Session ended without data change.", 'info');
             }
-          }, 3000);
+          }, 6000);
 
           return { success: true };
         }

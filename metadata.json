@@ -1,5 +1,5 @@
 {
-  "name": "Sehat AI - Voice Receptionist",
+  "name": "SehatAI - Voice Receptionist",
   "description": "Pakistan's First Voice AI for Clinics. Automated scheduling and reminders in Urdu/English.",
   "requestFramePermissions": [
     "microphone"
